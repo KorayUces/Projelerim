@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background: url('Rias\ Gremory.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    nav {
+        display: flex;
+    padding: 3px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    color: aquamarine;
+
+    }
+    a{
+        color:aqua
+    }
+    a:hover{
+        color: red;
+    }
+}
+.saat{
+    position: absolute; 
+    right: 0;
+    color: greenyellow;
+    box-shadow: inset;
+}
+    .Belediyeler{
+        background-color: bisque;
+        min-height: 50vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .yazılar{
+        text-align: center;
+        color: wheat;
+        padding-top: 10px;
+        justify-content: center;
+    }
+    .yeşil{
+        color: green;
+    }
+    .içerik{
+        color: red;
+    }
+    .supra{
+        display: flex;
+    }
+    .supra img{
+        margin-right: 170px;
+    }
+    .asdf{
+        right: 100px;
+        text-align: top ;
+        background-color: bisque;
+    }
+    .Universiteler {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        height: 180vh;
+        background-color: bisque;
+    }
+    .GT{
+        position: relative;
+    }
+    .GTTEXT{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        position:absolute;
+
+    }
+    .GTİMG{
+        width: 600px;
+        height: 300px;
+    }
+    .GT:hover .GTTEXT{
+        opacity: 1;
+    }
+    .KUIMG{
+        width: 600px;
+        height: 300px;
+    }
+    .KU{
+        position: relative;
+    }
+    .KUTEXT{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        position:absolute;
+        
+    
+    
+    }
+    .KU:hover .KUTEXT  {
+        opacity: 1;
+    }
+.footer{
+    background-color: bisque;
+}
+    @media only screen and (max-width: 1000px){
+        .header{
+            font-size: 12px;
+            max-width: 1000px;
+            max-height: auto;
+        }
+        img{
+            max-width: 100px;
+        }
+       .Belediyeler
+       font-size: 12px;
+       img{
+        max-width: fit-content;
+        
+       }
+       .supra img {
+        margin:0;
+       }
+       .GTİMG{
+       max-height: 85px;
+       max-width: 150px;
+    }
+    .GTTEXT{
+        font-size: 12px;
+        text-align: center;
+    }
+    .KUTEXT{
+        font-size: 12px;
+        text-align: center;
+    }
+    .KUIMG{
+        max-width: 150px;
+        max-height: 85px;
+    }
+    .footer
+    font-size: 12px;
+
+}
+
+
+
